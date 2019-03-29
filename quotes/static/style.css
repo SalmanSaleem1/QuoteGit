@@ -21124,12 +21124,12 @@ ul li {
 /* === Landing screens === */
 /* Auth */
 .auth.auth-bg-1 {
-    background: url("images/register.jpg");
+    background: url("images/login_1.jpg");
     background-size: cover;
 }
 
 .auth.register-bg-1 {
-    background: url("images/register.jpg") center center no-repeat;
+    background: url("images/login_1.jpg") center center no-repeat;
     background-size: cover;
 }
 

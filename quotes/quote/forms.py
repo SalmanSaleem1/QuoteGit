@@ -7,6 +7,6 @@ class NewQuoteForm(FlaskForm):
     quote = StringField('Quote', [validators.required()])
     language = StringField('Language', [validators.required()])
     color_code = StringField('Color Code', [validators.required()])
-    font_family = StringField('Font Family')
+    font_family = StringField('Font Family', [validators.required()])
     image_file = FileField('Add Photo', validators=[FileAllowed(['jpg', 'jpeg', 'png'])])
     submit = SubmitField('Add')
