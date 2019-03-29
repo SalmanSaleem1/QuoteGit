@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+{% block content %}
+
+<center>
+    <div style="width: 800px">
+        {% for que in quote %}
+        <article class="media">
+            <div class="media-body">
+                <div class="article-metadata">
+                    
+                    <img src="{{url_for('static', filename='images/' + que.image_file)}}"
+                         class="rounded profile-image">
+
+                    <h4 class="mr-2"><a>{{ que.category_id }}</a></h4>
+                    <small class="text-muted">Create At: {{ que.created_at.strftime('%d, %m, %Y')}}</small>
+                    <h2><a class="text-bold" href="{{ url_for('quote.get_byID', quote_id=que.id)}}">{{ que.quote
+                        }}</a>
+                    </h2>
+                    <a id="btn-Convert-Html2Image" href="#">Download</a>
+                </div>
+            </div>
+        </article>
+        <hr>
+        {% endfor %}
+    </div>
+</center>
+{% endblock %}
