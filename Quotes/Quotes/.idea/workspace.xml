@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e459811b-8c82-4684-b5d9-a1cd11b727a0" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Quotes$forfacebook.coverage" NAME="forfacebook Coverage Results" MODIFIED="1553776649832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quotes" />
+    <SUITE FILE_PATH="coverage/Quotes$run.coverage" NAME="run Coverage Results" MODIFIED="1553815641077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quotes" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>container</find>
+      <find>login_</find>
+      <find>container-scroller</find>
+      <find>login_1</find>
+      <find>navbar-brand</find>
+      <find>dropdown-menu</find>
+      <find>navbar-dropdown</find>
+      <find>dropdown-toggle</find>
+      <find>nav-item</find>
+      <find>#</find>
+      <find>exampleModalLabel</find>
+      <find>alertModal</find>
+      <find>sel</find>
+      <find>profile-ima</find>
+      <find>print</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/quotes/template/quotes/template.html" />
+        <option value="$PROJECT_DIR$/quotes/template/quoteDetail.html" />
+        <option value="$PROJECT_DIR$/quotes/static/Main.css" />
+        <option value="$PROJECT_DIR$/quotes/quote/route.py" />
+        <option value="$PROJECT_DIR$/quotes/main/main.py" />
+        <option value="$PROJECT_DIR$/quotes/main/forms.py" />
+        <option value="$PROJECT_DIR$/quotes/constants/const.py" />
+        <option value="$PROJECT_DIR$/quotes/constants/ApiKey.py" />
+        <option value="$PROJECT_DIR$/quotes/categories/__init__.py" />
+        <option value="$PROJECT_DIR$/quotes/errors/forms.py" />
+        <option value="$PROJECT_DIR$/quotes/errors/routes.py" />
+        <option value="$PROJECT_DIR$/quotes/template/_ForNav.html" />
+        <option value="$PROJECT_DIR$/quotes/user/routes.py" />
+        <option value="$PROJECT_DIR$/quotes/template/layout_auth.html" />
+        <option value="$PROJECT_DIR$/quotes/template/login.html" />
+        <option value="$PROJECT_DIR$/quotes/user/forms.py" />
+        <option value="$PROJECT_DIR$/quotes/static/vendors/iconfonts/mdi/css/materialdesignicons.min.css" />
+        <option value="$PROJECT_DIR$/quotes/template/layout.html" />
+        <option value="$PROJECT_DIR$/quotes/template/_include/_PopupModel.html" />
+        <option value="$PROJECT_DIR$/quotes/template/_include/_PopupAddQuoteModal.html" />
+        <option value="$PROJECT_DIR$/quotes/template/new_quote.html" />
+        <option value="$PROJECT_DIR$/quotes/template/add_quote.html" />
+        <option value="$PROJECT_DIR$/quotes/template/home.html" />
+        <option value="$PROJECT_DIR$/quotes/template/404.html" />
+        <option value="$PROJECT_DIR$/quotes/quote/util.py" />
+        <option value="$PROJECT_DIR$/quotes/main/routes.py" />
+        <option value="$PROJECT_DIR$/quotes/config.py" />
+        <option value="$PROJECT_DIR$/quotes/run.py" />
+        <option value="$PROJECT_DIR$/quotes/models.py" />
+        <option value="$PROJECT_DIR$/quotes/quote/utils.py" />
+        <option value="$PROJECT_DIR$/quotes/categories/utils.py" />
+        <option value="$PROJECT_DIR$/quotes/quote/forms.py" />
+        <option value="$PROJECT_DIR$/quotes/categories/forms.py" />
+        <option value="$PROJECT_DIR$/quotes/template/categories.html" />
+        <option value="$PROJECT_DIR$/quotes/template/add_new_category.html" />
+        <option value="$PROJECT_DIR$/quotes/template/homw2.html" />
+        <option value="$PROJECT_DIR$/quotes/__init__.py" />
+        <option value="$PROJECT_DIR$/quotes/static/style.css" />
+        <option value="$PROJECT_DIR$/quotes/static/categories.css" />
+        <option value="$PROJECT_DIR$/quotes/template/categoriesWithPics.html" />
+        <option value="$PROJECT_DIR$/quotes/extra.py" />
+        <option value="$PROJECT_DIR$/quotes/quote/routes.py" />
+        <option value="$PROJECT_DIR$/quotes/template/add_new_quote.html" />
+        <option value="$PROJECT_DIR$/quotes/categories/routes.py" />
+        <option value="$PROJECT_DIR$/quotes/forfacebook.py" />
+        <option value="$PROJECT_DIR$/quotes/template/_QuoteNavBar.html" />
+        <option value="$PROJECT_DIR$/quotes/template/html2canvas.html" />
+        <option value="$PROJECT_DIR$/quotes/template/Canvas2Image.html" />
+        <option value="$PROJECT_DIR$/quotes/template/html2canvas.min.js" />
+        <option value="$PROJECT_DIR$/quotes/template/jquery-3.3.1.js" />
+        <option value="$PROJECT_DIR$/quotes/template/categoryDetail.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="77" />
+    <option name="y" value="47" />
+    <option name="width" value="1141" />
+    <option name="height" value="641" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/quotes/static/images" />
+      <recent name="$PROJECT_DIR$/quotes/static/images/auth" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/quotes" />
+      <recent name="$PROJECT_DIR$/quotes/static/cat_images" />
+      <recent name="$PROJECT_DIR$/quotes/template" />
+      <recent name="$PROJECT_DIR$/quotes/static/images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run">
+    <configuration name="forfacebook" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Quotes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/quotes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quotes/forfacebook.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Quotes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/quotes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quotes/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.forfacebook" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e459811b-8c82-4684-b5d9-a1cd11b727a0" name="Default Changelist" comment="" />
+      <created>1553129492372</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553129492372</updated>
+      <workItem from="1553129494739" duration="3074000" />
+      <workItem from="1553166663463" duration="829000" />
+      <workItem from="1553167568908" duration="151000" />
+      <workItem from="1553168122948" duration="12685000" />
+      <workItem from="1553215377379" duration="1225000" />
+      <workItem from="1553253777648" duration="804000" />
+      <workItem from="1553296776932" duration="230000" />
+      <workItem from="1553367468387" duration="18346000" />
+      <workItem from="1553390196702" duration="3316000" />
+      <workItem from="1553431952556" duration="15912000" />
+      <workItem from="1553463168505" duration="4399000" />
+      <workItem from="1553473539775" duration="573000" />
+      <workItem from="1553474114679" duration="2468000" />
+      <workItem from="1553477383183" duration="28000" />
+      <workItem from="1553477444557" duration="1496000" />
+      <workItem from="1553512179938" duration="25528000" />
+      <workItem from="1553554202982" duration="9020000" />
+      <workItem from="1553563569503" duration="1239000" />
+      <workItem from="1553565815022" duration="233000" />
+      <workItem from="1553598850852" duration="9361000" />
+      <workItem from="1553613561308" duration="14354000" />
+      <workItem from="1553643332817" duration="7991000" />
+      <workItem from="1553685764732" duration="1611000" />
+      <workItem from="1553687488075" duration="20657000" />
+      <workItem from="1553728330727" duration="2600000" />
+      <workItem from="1553773908718" duration="20008000" />
+      <workItem from="1553801594776" duration="491000" />
+      <workItem from="1553802704174" duration="1852000" />
+      <workItem from="1553815392442" duration="8602000" />
+      <workItem from="1553858246727" duration="1396000" />
+      <workItem from="1553860560978" duration="560000" />
+      <workItem from="1553861247181" duration="28000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="191067000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49311295" visible="true" weight="0.29289705" />
+      <window_info id="Structure" order="1" sideWeight="0.5068871" side_tool="true" weight="0.20670392" />
+      <window_info id="DB Browser" order="2" weight="0.1915403" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960095" weight="0.4087948" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32899022" />
+      <window_info anchor="bottom" id="DB Execution Console" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49960095" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50039905" side_tool="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32899022" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.32899022" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32960895" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32960895" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="Add Pop Up files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Pop Up files" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="form.validate_on_submit()" />
+        <watch expression="form.validate_on_submit()" language="Python" />
+        <watch expression="form.validate_on_submit()" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>form.validate_on_submit()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/fc7fb0a10b4434cd.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/8690dab545ea440d.jpg" />
+    <entry file="file://$USER_HOME$/PythonProjects/Quotes/venv/lib/python3.6/site-packages/flask/_compat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PythonProjects/Quotes/venv/lib/python3.6/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="1798" selection-start-line="1798" selection-end-line="1798" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/4ecf209f0a557300.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/run.py" />
+    <entry file="file://$PROJECT_DIR$/quotes/categories/utils.py" />
+    <entry file="file://$PROJECT_DIR$/quotes/quote/utils.py" />
+    <entry file="file://$PROJECT_DIR$/quotes/models.py" />
+    <entry file="file://$PROJECT_DIR$/quotes/quote/forms.py" />
+    <entry file="file://$PROJECT_DIR$/quotes/categories/forms.py" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/cat_images/773b75abe0fd539d.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/cat_images/a1b43982180c7b6f.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/cat_images/e2bffa81694ca40f.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/cat_images/e32caeadcbe551ea.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/cat_images/ac5ea13e73f23c8d.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/cat_images/4656cd9873c84c42.jpeg" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/286ac7811e7d5326.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/730a7257f85eb8bd.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/cat_images/default.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/b75f5159f8c118ea.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/register.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/login_1.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/template/_include/_PopupModel.html" />
+    <entry file="file://$USER_HOME$/PythonProjects/Quotes/venv/lib/python3.6/site-packages/flask_sqlalchemy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="793" selection-start-line="793" selection-end-line="793" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/template/categories.html" />
+    <entry file="file://$PROJECT_DIR$/quotes/template/add_new_category.html" />
+    <entry file="file://$PROJECT_DIR$/quotes/template/add_new_quote.html" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/style.css" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/categories.css" />
+    <entry file="file://$PROJECT_DIR$/quotes/extra.py" />
+    <entry file="file://$PROJECT_DIR$/quotes/forfacebook.py" />
+    <entry file="file://$PROJECT_DIR$/quotes/template/categoriesWithPics.html" />
+    <entry file="file://$PROJECT_DIR$/quotes/template/quoteDetail.html" />
+    <entry file="file://$PROJECT_DIR$/quotes/template/_QuoteNavBar.html" />
+    <entry file="file://$PROJECT_DIR$/quotes/categories/routes.py" />
+    <entry file="file://$PROJECT_DIR$/quotes/template/homw2.html" />
+    <entry file="file://$PROJECT_DIR$/quotes/quote/routes.py" />
+    <entry file="file://$PROJECT_DIR$/quotes/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/download-arrow.png" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotes/template/canvas2image.js" />
+    <entry file="file://$PROJECT_DIR$/quotes/template/html2canvas.min.js" />
+    <entry file="file://$PROJECT_DIR$/quotes/template/jquery-3.3.1.js" />
+    <entry file="file://$PROJECT_DIR$/quotes/template/categoryDetail.html" />
+    <entry file="file://$PROJECT_DIR$/quotes/template/layout.html" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/e5b3ebe7bd8909b7.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/default.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/77590657177aa0f7.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/4938472bfd3cc4a5.jpg" />
+    <entry file="file://$PROJECT_DIR$/quotes/static/images/0309910aeffa98f8.jpg" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

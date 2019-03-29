@@ -3,7 +3,7 @@ from quotes.models import Categories, Quotes
 from quotes.categories.forms import AddNewCategoryForm
 from quotes import db
 from quotes.categories.utils import savePicture
-import facebook
+
 
 category = Blueprint('category', __name__)
 
