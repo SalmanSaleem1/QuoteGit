@@ -1,11 +1,24 @@
-from flask import Blueprint, render_template, request, redirect, url_for
-from quotes.user.forms import LoginForm
+from flask import Blueprint, render_template, request, redirect, url_for, flash
+from quotes.user.forms import LoginForm, RegisterForm
 from quotes.models import User
-from quotes import bcrypt
+from quotes import bcrypt, app, db
+
 from flask_login import login_user, current_user
 
-
 user = Blueprint('user', __name__)
+
+
+@user.route('/register/', methods=['POST', 'GET'])
+def register():
+    form = RegisterForm()
+    if form.validate_on_submit():
+        user = User(name=form.name.data, username=form.username.data, email=form.email.data,
+                    password=form.password.data)
+        db.session.add(user)
+        db.session.commit()
+        flash(f'Register Successfully', 'success')
+        return redirect(url_for('main.home'))
+    return render_template('register.html', title='Register', form=form)
 
 
 @user.route('/login', methods=['POST', 'GET'])

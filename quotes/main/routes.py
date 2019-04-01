@@ -5,7 +5,7 @@ from quotes.models import Quotes
 main = Blueprint('main', __name__)
 
 
-@main.route('/')
+@main.route('/', methods=['GET', 'POST'])
 def home():
     page = request.args.get('page', 1, type=int)
     quote = Quotes.query.order_by(Quotes.created_at.desc(), Quotes.updated_at.asc()).paginate(page=page, per_page=8)

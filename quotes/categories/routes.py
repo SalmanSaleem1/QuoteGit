@@ -4,7 +4,6 @@ from quotes.categories.forms import AddNewCategoryForm
 from quotes import db
 from quotes.categories.utils import savePicture
 
-
 category = Blueprint('category', __name__)
 
 
@@ -27,12 +26,13 @@ def get_categories():
 
 @category.route('/add_new_category', methods=['POST', 'GET'])
 def add_new_category():
+    print('Categories')
     categories = Categories.query.all()
     form = AddNewCategoryForm()
     if form.validate_on_submit():
         if form.image_file.data:
-            image_fil = savePicture(form.image_file.data)
-        cat = Categories(category_name=form.category_name.data, image_file=image_fil)
+            image_file = savePicture(form.image_file.data)
+        cat = Categories(category_name=form.category_name.data)
         db.session.add(cat)
         db.session.commit()
         return redirect(url_for('category.get_categories'))
@@ -45,7 +45,7 @@ def get_categoryDetail(category_id):
     return render_template('categoryDetail.html', title='Detail', quote=quote)
 
 
-@category.route('/showCatgegories')
+@category.route('/showCatgegories', methods=['POST', 'GET'])
 def showCat():
     categories = Categories.query.all()
-    return render_template('categoriesWithPics.html', categories=categories)
+    return render_template('categoriesWithPics.html', categories=categories, title='GridView Categories')

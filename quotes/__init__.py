@@ -2,11 +2,13 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt
 from flask_login import LoginManager
-from quotes.config import Config
+from quotes.config import BaseConfig
+
 
 app = Flask(__name__, template_folder='template')
-app.secret_key = '1234657889'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///quotes.db'
+# app.secret_key = '1234657889'
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///quotes.db'
+app.config.from_object(BaseConfig)
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
 login = LoginManager(app)
