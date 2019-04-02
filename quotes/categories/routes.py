@@ -32,7 +32,7 @@ def add_new_category():
     if form.validate_on_submit():
         if form.image_file.data:
             image_file = savePicture(form.image_file.data)
-        cat = Categories(category_name=form.category_name.data)
+        cat = Categories(category_name=form.category_name.data, image_file=image_file)
         db.session.add(cat)
         db.session.commit()
         return redirect(url_for('category.get_categories'))

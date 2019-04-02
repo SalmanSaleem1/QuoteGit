@@ -7,8 +7,11 @@
     <meta name="generator" content="Jekyll v3.8.5">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename = 'Main.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename = 'Main.css') }}">
     <link rel="stylesheet" href="{{ url_for('static',filename = 'style.css') }}">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://files.codepedia.info/files/uploads/iScripts/html2canvas.js"></script>
 
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -17,7 +20,7 @@
 
     <link rel="shortcut icon" href="{{ url_for('static',filename = 'image') }}"/>
     {% if title %}
-    <title>{{ title }}</title>
+        <title>{{ title }}</title>
     {% else %}
     {% endif %}
 </head>
@@ -27,9 +30,9 @@
 <body>
 
 <div class="container-scroller">
-    {% include '_QuoteNavBar.html'%}
+    {% include '_QuoteNavBar.html' %}
     {% block content %}
-    {% endblock%}
+    {% endblock %}
 
 </div>
 

@@ -10,6 +10,12 @@ quote = Blueprint('quote', __name__)
 @quote.route('/<int:quote_id>', methods=['POST', 'GET'])
 def get_byID(quote_id):
     que = Quotes.query.get_or_404(quote_id)
+    return render_template('quoteDetail.html', title=que.category_id, que=que)
+
+
+@quote.route('/<string:quote_id>', methods=['POST', 'GET'])
+def get_byImage(quote_id):
+    que = Quotes.query.get_or_404(quote_id)
     return render_template('quoteDetail.html', title='', que=que)
 
 
@@ -91,3 +97,8 @@ def add_new_quote():
 
     return render_template('add_new_quote.html', form=form, quote=quote, categories=categories, label='Add Quotation',
                            value='Save')
+
+
+@quote.route('/testHtml')
+def test():
+    return render_template('testHtml.html')

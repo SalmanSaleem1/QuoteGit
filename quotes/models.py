@@ -39,6 +39,7 @@ class User(db.Model, UserMixin):
     name = db.Column(db.String(60))
     username = db.Column(db.String(60), unique=True)
     email = db.Column(db.String(60), unique=True)
+    image_file = db.Column(db.String(60), default='default.jpg')
     password = db.Column(db.String(60))
 
     def __init__(self, name, username, email, password):
@@ -48,4 +49,4 @@ class User(db.Model, UserMixin):
         self.password = bcrypt.generate_password_hash(password)
 
     def __repr__(self):
-        return f"User('{self.name}', '{self.username}', '{self.email}', ('{self.password}'))"
+        return f"User('{self.name}', '{self.username}', '{self.email}', ('{self.password}', '{self.image_file}'))"

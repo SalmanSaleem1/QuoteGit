@@ -1,27 +1,71 @@
 {% extends 'layout.html' %}
 {% block content %}
+    {#    <script>#}
+    {#        function download() {#}
+    {##}
+    {#            var image = document.getElementById("canvas");#}
+    {#            var ctx = image.getContext("2d");#}
+    {#            var img = document.getElementById("scream");#}
+    {#            ctx.drawImage(img, 0, 0);#}
+    {#            var download = document.getElementById("download");#}
+    {#            var image = document.getElementById("canvas")#}
+    {#                .toDataURL("image/png")#}
+    {#                .replace("image/png", "image/octet-stream");#}
+    {#            download.setAttribute("href", image);#}
+    {#        }#}
+    {#    </script>#}
 
-<center>
-    <div style="width: 800px">
-        {% for que in quote %}
-        <article class="media">
-            <div class="media-body">
-                <div class="article-metadata">
-                    
-                    <img src="{{url_for('static', filename='images/' + que.image_file)}}"
-                         class="rounded profile-image">
+    <center>
+        <div style="width: 800px; padding-left: 25px; padding-top: 10px">
+            {% for que in quote %}
+                <article class="media">
+                    <div class="media-body">
+                        <div class="article-metadata" id="html-content-holder">
+                            <img src="{{ url_for('static', filename='images/' + que.image_file) }}"
+                                 class="rounded profile-image">
+                            <h4 class="mr-2"><a>{{ que.category_id }}</a></h4>
+                            <small class="text-muted">Create At: {{ que.created_at.strftime('%d, %m, %Y') }}</small>
+                            <h2><a class="text-bold"
+                                   href="{{ url_for('quote.get_byID', quote_id=que.id) }}">{{ que.quote }}</a>
+                            </h2>
+                            {#                            <canvas id="canvas"></canvas>#}
+                            {#                            <a id="download" download="QuoteImage.png"#}
+                            {#                               href="{{ url_for('quote.get_byImage', quote_id=que.image_file) }}">#}
+                            {#                                <button type="button" onclick="download()">Download</button>#}
+                            {#                            </a>#}
+                        </div>
 
-                    <h4 class="mr-2"><a>{{ que.category_id }}</a></h4>
-                    <small class="text-muted">Create At: {{ que.created_at.strftime('%d, %m, %Y')}}</small>
-                    <h2><a class="text-bold" href="{{ url_for('quote.get_byID', quote_id=que.id)}}">{{ que.quote
-                        }}</a>
-                    </h2>
-                    <a id="btn-Convert-Html2Image" href="#">Download</a>
-                </div>
-            </div>
-        </article>
-        <hr>
-        {% endfor %}
-    </div>
-</center>
+                    </div>
+                </article>
+                <hr>
+            {% endfor %}
+        </div>
+
+    </center>
+    <script>
+        $(document).ready(function () {
+
+
+            var element = $("#html-content-holder"); // global variable
+            var getCanvas; // global variable
+
+            $("#btn-Preview-Image").on('click', function () {
+                html2canvas(element, {
+                    onrendered: function (canvas) {
+                        $("#previewImage").append(canvas);
+                        getCanvas = canvas;
+                    }
+                });
+            });
+
+            $("#btn-Convert-Html2Image").on('click', function () {
+                var imgageData = getCanvas.toDataURL("image/png");
+                // Now browser starts downloading it instead of just showing it
+                var newData = imgageData.replace(/^data:image\/png/, "data:application/octet-stream");
+                $("#btn-Convert-Html2Image").attr("download", "your_pic_name.png").attr("href", newData);
+            });
+
+        });
+
+    </script>
 {% endblock %}
